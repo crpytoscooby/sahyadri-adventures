@@ -145,7 +145,7 @@ video {
 
 button,
 input {
-  border: none;
+  border:none;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
@@ -379,6 +379,7 @@ input {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
+  border-radius: 40px;
   background-color: var(--first-color);
   color: var(--white-color);
   padding: 1rem 2rem;
@@ -645,6 +646,7 @@ input {
 
 /*=============== SUBSCRIBE ===============*/
 .subscribe__bg {
+  border-radius: 20px;
   background-color: var(--first-color-second);
   padding: 2.5rem 0;
 }
@@ -661,6 +663,7 @@ input {
 
 .subscribe__form {
   background-color: var(--input-color);
+  border-radius: 30px;
   padding: .5rem;
   display: flex;
   justify-content: space-between;
@@ -948,6 +951,7 @@ input {
   }
   .subscribe__container {
     background-color: var(--first-color-second);
+    border-radius: 20px;
     padding: 3.5rem 0;
   }
   .subscribe__input {
